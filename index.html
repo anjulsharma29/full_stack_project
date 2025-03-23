@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thread Buyer - Your Online Fashion Destination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <h1>Thread Buyer</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home">
+            <div class="home-content"> 
+                <h2>Welcome to Thread Buyer</h2>
+                <p>Explore the latest fashion trends for every occasion!</p>
+                <a href="shop.html" class="shop-now-button">Shop Now</a>
+            </div>
+            <div class="home-image">
+                <img src="https://imgs.search.brave.com/bMI-a5GQatfB04ZlBUQ3lZ1nQIRtYbch2b-PcJ5rSRI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9nZXR0/eWltYWdlcy00OTIw/NTc5NTAtMTU1NjMx/MTExNC5qcGc_Y3Jv/cD0wLjk2OXh3OjAu/OTMzeGg7MCwwLjAy/MTF4aCZyZXNpemU9/OTgwOio" alt="featured-products">
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-gallery">
+                <div class="product-card">
+                    <img src="https://imgs.search.brave.com/APQ5BIVNksYBepLp5m7BC2qJz251brJUTp0lXeOx02w/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9yYXBw/ZXItdHJhdmlzLXNj/b3R0LWlzLXNlZW4t/YXJyaXZpbmctdG8t/dGhlLTIwMTktbWV0/LWdhbGEtbmV3cy1w/aG90by0xNTgyNzU1/NTk1LmpwZz9jcm9w/PTEuMDB4dzowLjkx/OXhoOzAsMC4wMjM5/eGgmcmVzaXplPTk4/MDoq" alt="Product 1">
+                    <h3>Elegant Dress</h3>
+                    <p>₹12000.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://media.gq-magazine.co.uk/photos/67a9d9879e12c09cf12a4d44/1:1/w_3160,h_3160,c_limit/2198447933" alt="Product 2">
+                    <h3>Casual T-Shirt</h3>
+                    <p>₹3500.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://cdna.lystit.com/1040/1300/n/photos/brownsfashion/7bad2f3a/ksubi-BLUE-X-Travis-Scott-Stitched-Up-Chitch-Jeans.jpeg" alt="Product 3">
+                    <h3>Stylish Jeans</h3>
+                    <p>₹800.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest offers and fashion news.</p>
+            <form>
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Thread Buyer. All rights reserved.</p>
+    </footer>
+
+    <script>
+        //basic javascript for add to cart function.
+        document.querySelectorAll('.add-to-cart').forEach(button => {
+            button.addEventListener('click', function() {
+                alert('Item added to cart!'); // Replace with actual cart logic
+            });
+        });
+    </script>
+
+</body>
+</html>
